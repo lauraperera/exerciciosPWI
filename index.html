@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge>
+        <meta name="viewport" contet="width=device-width, inicial-scale=1.0">
+        <title>Programação para Web I</title>
+    </head>
+    <body>
+        <script>
+            var nome = 'Laura Perera'
+            console.log(nome) //inspecionar elemento > console
+
+            var idade = 21
+            console.log(idade)
+
+            var total = idade + 10 //teste operacao matematica
+            console.log(total)
+
+            //strings
+            var frase = 'Vamos programar!'
+            console.log(frase)
+            console.log(frase.length) //retorna nro de caracter
+
+            console.log('programar'.length) //nao precisa estar em variavel
+
+            console.log(frase.toUpperCase()) //retorna maiusculas
+
+            console.log(frase.toLowerCase()) //retorna minusculas
+
+            console.log(frase.indexOf('amar')) //retorna int: procura na variável a string 'amar', se não encontrar retorna -1, se encontrar printa a posição 
+
+            console.log(frase.replace('programar', 'estudar')) //procira a primeira string na variável, se encontrar substitui pela segunda
+
+            console.log(frase.slice(6,14)) //retorna a string no intervalo informado
+
+            var nome1 = '           Laura Perera            '
+            console.log(nome1) //printa com os espaços
+            console.log(nome1.trim()) //printa sem os espaços
+
+            var primeiroNome = 'Laura'
+            var segundoNome = 'Soares'
+            var terceiroNome = 'Perera'
+            console.log('Meu nome completo é: ' +primeiroNome+ ' '+segundoNome+' '+terceiroNome) //concatenação de string
+
+            console.log(`Meu nome completo é: ${primeiroNome} ${segundoNome} ${terceiroNome}`) //evolução de linguagem
+
+        </Script>
+    </body>
+</html>
